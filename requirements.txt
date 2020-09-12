@@ -1,0 +1,5 @@
+colorama
+requests
+pathlib
+hashlib
+discord_webhook
