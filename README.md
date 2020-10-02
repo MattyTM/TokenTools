@@ -1,8 +1,20 @@
 # TokenTools
-Discord Token Tools. Generate and Check discord tokens
+Generate & Check discord tokens
+- If you have any question Talk to me via [Discord]
+ 
+## Instructions
+1) Download the files or clone it
+2) Install requirements in cmd using `pip install -r requirements.txt`
+3) Open the TokenTools.py from **CMD** Or double click it
+4) Enjoy
+ 
+## Things to do
+- [X] Auto checker, dont need to press enter to check names
+- [ ] Remove some texts that appears randomly
+- [X] Thread system
 
-# Use:
-1) Open CMD inside the folder
-2) "pip install -r requirements.txt"
-3) "python TokenTools.py"
-4) Enjoy!
+ 
+###### Contact
+- Discord: Matty#8952
+- Discord Server: [Click Here](https://discord.gg/y7uGQ6d)
+- Youtube Channel: [Click Here](https://www.youtube.com/channel/UCJl6yxaNp3r1xkUoQHs4h6w?view_as=subscriber)
