@@ -11,7 +11,7 @@ Generate & Check discord tokens
 ## Things to do
 - [X] Auto checker, dont need to press enter to check names
 - [ ] Remove some texts that appears randomly
-- [X] Thread system
+- [ ] Thread system
 
  
 ###### Contact
